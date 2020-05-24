@@ -1,0 +1,29 @@
+
+.items__item + .items__item {
+    margin-top: 1rem;
+}
+
+.menu__frame--totals {
+    position: sticky;
+    top: 2rem;
+}
+
+.item__actions {
+    float: right;
+}
+
+.item__actions .btn + .btn {
+    margin-left: 1rem;
+}
+
+.totals__entry + .totals__entry {
+    margin-top: 1rem;
+}
+
+.totals__entry__value {
+    float: right;
+}
+
+.progress-bar.bg-warning {
+    color: black;
+}

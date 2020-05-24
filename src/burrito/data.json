@@ -1,0 +1,389 @@
+{
+    "schema": {
+        "calories": {
+            "type": "number",
+            "unit": "C",
+            "label": "Calories",
+            "nutrition": "lower-better"
+        },
+        "caloriesFromFat": {
+            "type": "number",
+            "unit": "C",
+            "label": "Calories from Fat",
+            "nutrition": "lower-better"
+        },
+        "totalFat": {
+            "type": "number",
+            "unit": "g",
+            "label": "Total Fat",
+            "nutrition": "lower-better"
+        },
+        "sFat": {
+            "type": "number",
+            "unit": "g",
+            "label": "Saturated Fat",
+            "nutrition": "lower-better"
+        },
+        "tFat": {
+            "type": "number",
+            "unit": "g",
+            "label": "Trans Fat",
+            "nutrition": "lower-better"
+        },
+        "cholesterol": {
+            "type": "number",
+            "unit": "mg",
+            "label": "Cholesterol",
+            "nutrition": "lower-better"
+        },
+        "sodium": {
+            "type": "number",
+            "unit": "g",
+            "label": "Sodium",
+            "nutrition": "lower-better"
+        },
+        "carbs": {
+            "type": "number",
+            "unit": "g",
+            "label": "Carbohydrates",
+            "nutrition": "lower-better"
+        },
+        "fiber": {
+            "type": "number",
+            "unit": "g",
+            "label": "Fiber",
+            "nutrition": "no-preference"
+        },
+        "sugars": {
+            "type": "number",
+            "unit": "g",
+            "label": "Sugars",
+            "nutrition": "lower-better"
+        },
+        "protein": {
+            "type": "number",
+            "unit": "g",
+            "label": "Protein",
+            "nutrition": "no-preference"
+        }
+    },
+    "nutrition": {
+        "2000": {
+            "calories": 2000,
+            "totalFat": 78,
+            "sFat": 20,
+            "tFat": 0,
+            "cholesterol": 300,
+            "carbs": 275,
+            "sodium": 2300,
+            "fiber": 28,
+            "protein": 50,
+            "sugars": 50
+        }
+    },
+    "items": [
+        {
+            "name": "Flour Tortilla (burrito)",
+            "calories": 290,
+            "caloriesFromFat": 80,
+            "totalFat": 9.0,
+            "sFat": 3,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 670, 
+            "carbs": 44,
+            "fiber": 2,
+            "sugars": 0,
+            "protein": 7
+        },
+        {
+            "name": "Flour Tortilla (taco)",
+            "calories": 90,
+            "caloriesFromFat": 25,
+            "totalFat": 2.5,
+            "sFat": 1,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 200,
+            "carbs": 13,
+            "fiber": 0,
+            "sugars": 0,
+            "protein": 2
+        },
+        {
+            "name": "Crispy Taco Shell",
+            "calories": 60,
+            "caloriesFromFat": 20,
+            "totalFat": 2.0,
+            "sFat": 0.5,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 10,
+            "carbs": 9,
+            "fiber": 1,
+            "sugars": 0,
+            "protein": 1
+        },
+        {
+            "name": "Cilantro-Lime Rice",
+            "calories": 130,
+            "caloriesFromFat": 30,
+            "totalFat": 3.0,
+            "sFat": 0.5,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 150,
+            "carbs": 23,
+            "fiber": 0,
+            "sugars": 0,
+            "protein": 2
+        },
+        {
+            "name": "Black Beans",
+            "calories": 120,
+            "caloriesFromFat": 10,
+            "totalFat": 1.0,
+            "sFat": 0,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 250,
+            "carbs": 23,
+            "fiber": 11,
+            "sugars": 0,
+            "protein": 7
+        },
+        {
+            "name": "Pinto Beans",
+            "calories": 120,
+            "caloriesFromFat": 10,
+            "totalFat": 1.0,
+            "sFat": 0,
+            "tFat": 0,
+            "cholesterol": 5,
+            "sodium":  330,
+            "carbs": 22,
+            "fiber": 10,
+            "sugars": 0,
+            "protein": 7
+        },
+        {
+            "name": "Fajita Vegetables",
+            "calories": 20,
+            "caloriesFromFat": 5,
+            "totalFat": 0.5,
+            "sFat": 0,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 170,
+            "carbs": 4,
+            "fiber": 1,
+            "sugars": 2,
+            "protein": 1
+        },
+        {
+            "name": "Barbacoa",
+            "calories": 170,
+            "caloriesFromFat": 60,
+            "totalFat": 7.0,
+            "sFat": 2.5,
+            "tFat": 0,
+            "cholesterol": 60,
+            "sodium": 510,
+            "carbs": 2,
+            "fiber": 0,
+            "sugars": 0,
+            "protein": 241
+        },
+        {
+            "name": "Chicken",
+            "calories": 190,
+            "caloriesFromFat": 60,
+            "totalFat": 6.5,
+            "sFat": 2,
+            "tFat": 0,
+            "cholesterol": 115,
+            "sodium": 370,
+            "carbs": 1,
+            "fiber": 0,
+            "sugars": 1,
+            "protein": 32
+        },
+        {
+            "name": "Carnitas",
+            "calories": 190,
+            "caloriesFromFat": 70,
+            "totalFat": 8.0,
+            "sFat": 2.5,
+            "tFat": 0,
+            "cholesterol": 70,
+            "sodium": 540,
+            "carbs": 1,
+            "fiber": 0,
+            "sugars": 0,
+            "protein": 27
+        },
+        {
+            "name": "Steak",
+            "calories": 190,
+            "caloriesFromFat": 60,
+            "totalFat": 6.5,
+            "sFat": 2,
+            "tFat": 0,
+            "cholesterol": 65,
+            "sodium": 320,
+            "carbs": 2,
+            "fiber": 0,
+            "sugars": 1,
+            "protein": 30
+        },
+        {
+            "name": "Tomato Salsa",
+            "calories": 20,
+            "caloriesFromFat": 0,
+            "totalFat": 0.0,
+            "sFat": 0,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 470,
+            "carbs": 4,
+            "fiber": 0,
+            "sugars": 3,
+            "protein": 1
+        },
+        {
+            "name": "Green Tomatillo Salsa",
+            "calories": 15,
+            "caloriesFromFat": 5,
+            "totalFat": 0.0,
+            "sFat": 0,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 230,
+            "carbs": 3,
+            "fiber": 1,
+            "sugars": 2,
+            "protein": 1
+        },
+        {
+            "name": "Corn Salsa",
+            "calories": 80,
+            "caloriesFromFat": 15,
+            "totalFat": 1.5,
+            "sFat": 0,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 410,
+            "carbs": 15,
+            "fiber": 3,
+            "sugars": 4,
+            "protein": 3
+        },
+        {
+            "name": "Red Tomatillo Salsa",
+            "calories": 40,
+            "caloriesFromFat": 10,
+            "totalFat": 1.0,
+            "sFat": 0,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 510,
+            "carbs": 8,
+            "fiber": 4,
+            "sugars": 4,
+            "protein": 2
+        },
+        {
+            "name": "Cheese",
+            "calories": 100,
+            "caloriesFromFat": 80,
+            "totalFat": 8.5,
+            "sFat": 5,
+            "tFat": 0,
+            "cholesterol": 30,
+            "sodium": 180,
+            "carbs": 0,
+            "fiber": 0,
+            "sugars": 0,
+            "protein": 8
+        },
+        {
+            "name": "Sour Cream",
+            "calories": 120,
+            "caloriesFromFat": 90,
+            "totalFat": 10.0,
+            "sFat": 7,
+            "tFat": 0,
+            "cholesterol": 40,
+            "sodium": 30,
+            "carbs": 2,
+            "fiber": 0,
+            "sugars": 2,
+            "protein": 2
+        }, {
+            "name": "Guacamole",
+            "calories": 150,
+            "caloriesFromFat": 120,
+            "totalFat": 13.0,
+            "sFat": 2,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 190,
+            "carbs": 8,
+            "fiber": 6,
+            "sugars": 1,
+            "protein": 2
+        }, {
+            "name": "Romaine Lettuce (salad)",
+            "calories": 10,
+            "caloriesFromFat": 0,
+            "totalFat": 0.0,
+            "sFat": 0,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 5,
+            "carbs": 2,
+            "fiber": 1,
+            "sugars": 1,
+            "protein": 1
+        }, {
+            "name": "Romaine Lettuce (tacos)",
+            "calories": 5,
+            "caloriesFromFat": 0,
+            "totalFat": 0.0,
+            "sFat": 0,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 0,
+            "carbs": 1,
+            "fiber": 1,
+            "sugars": 0,
+            "protein": 0
+        }, {
+            "name": "Chips",
+            "calories": 570,
+            "caloriesFromFat": 240,
+            "totalFat": 27.0,
+            "sFat": 3.5,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 420,
+            "carbs": 73,
+            "fiber": 8,
+            "sugars": 4,
+            "protein": 8
+        }, {
+            "name": "Vinaigrette",
+            "calories": 260,
+            "caloriesFromFat": 220,
+            "totalFat": 24.5,
+            "sFat": 4,
+            "tFat": 0,
+            "cholesterol": 0,
+            "sodium": 700,
+            "carbs": 12,
+            "fiber": 1,
+            "sugars": 11,
+            "protein": 0
+        }
+    ]
+}
